@@ -15,5 +15,9 @@ name = "memory_management"
 version = "0.1.0"
 
 [[package]]
+name = "stdin-out"
+version = "0.1.0"
+
+[[package]]
 name = "variables"
 version = "0.1.0"
