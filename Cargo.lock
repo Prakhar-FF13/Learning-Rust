@@ -3,11 +3,22 @@
 version = 3
 
 [[package]]
+name = "dependency"
+version = "0.1.0"
+dependencies = [
+ "library",
+]
+
+[[package]]
 name = "hello_world"
 version = "0.1.0"
 
 [[package]]
 name = "lessons"
+version = "0.1.0"
+
+[[package]]
+name = "library"
 version = "0.1.0"
 
 [[package]]
