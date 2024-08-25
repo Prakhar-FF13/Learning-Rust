@@ -6,3 +6,5 @@
 4. stdin-out
 5. library
 6. dependency
+7. Enumerations
+8. Structures
