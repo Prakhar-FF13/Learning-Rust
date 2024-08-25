@@ -1,0 +1,14 @@
+{
+  "user": {
+    "username": "user",
+    "email": "user@localhost",
+    "password": "user",
+    "role": "user"
+  },
+  "admin": {
+    "username": "admin",
+    "email": "admin@localhost",
+    "password": "admin",
+    "role": "admin"
+  }
+}
