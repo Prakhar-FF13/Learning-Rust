@@ -17,5 +17,5 @@ members = [
   "dependency",
   "enumerations",
   "strcutures",
-  "vectors",
+  "vectors", "hashmaps",
 ]
