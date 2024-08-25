@@ -15,4 +15,5 @@ members = [
   "stdin-out",
   "library",
   "dependency",
+  "enumerations",
 ]
