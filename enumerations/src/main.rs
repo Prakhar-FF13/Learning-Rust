@@ -19,6 +19,16 @@ pub enum E2 {
 pub enum E3 {
     Admin,
     User,
+    // can have a enum value which represents some object.
+    // this is a complex enum
+    SomethingElse {
+        name: String,
+        username: String,
+        password: String,
+        email: String,
+        role: E2,
+        can_be_admin: Option<bool>,
+    },
 }
 
 #[derive(PartialEq, Debug)]
@@ -56,6 +66,19 @@ fn main() {
             // handle cases for E3
             E3::Admin => println!("Admin"),
             E3::User => println!("User"),
+            E3::SomethingElse {
+                name,
+                username,
+                password,
+                email,
+                role,
+                can_be_admin: _c,
+            } => {
+                println!(
+                    "SomethingElse {name} {username} {password} {email} {role:?} {}",
+                    _c.is_some()
+                );
+            }
         },
         // can also match a more granular enum
         // E4::Granted(E3::Admin) => println!("Admin"),
