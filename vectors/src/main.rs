@@ -36,7 +36,7 @@ fn main() {
     users.push(User::new("admin", "admin", "password", Role::Admin));
 
     // into_iter moves unlike iter which gives a reference.
-    let admin_users = users
+    let _admin_users = users
         .into_iter()
         .filter(|user| user.role == Role::Admin)
         .map(|user| user.username)

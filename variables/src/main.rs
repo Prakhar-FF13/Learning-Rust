@@ -31,7 +31,7 @@ fn main() {
     // return type is the unit type '()'
     // everything in rust returns a type whether you explicitly say it or not.
     // unit type is basically saying nothing
-    let n = {
+    let _n = {
         let _x = 5;
     };
     // cannot print a unit type
