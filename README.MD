@@ -12,3 +12,4 @@
 10. Hashmaps
 11. Serial and Deserialize
 12. Threads
+13. Atomics and Locks

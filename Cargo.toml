@@ -17,5 +17,5 @@ members = [
   "dependency",
   "enumerations",
   "strcutures",
-  "vectors", "hashmaps", "serialize-deserialize", "threads",
+  "vectors", "hashmaps", "serialize-deserialize", "threads", "atomics_and_locks",
 ]

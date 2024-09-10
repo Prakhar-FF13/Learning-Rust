@@ -99,6 +99,7 @@ fn main() {
 
     // notice how we dont need to move when using scoped threads
     // scoped threads handles ownership hence moving not needed.
+    // scope assumes that thread will eventually finish i.e continouslly running threads not allowed.
     let sum = std::thread::scope(|s| {
         let mut thread_handles = Vec::new();
 
